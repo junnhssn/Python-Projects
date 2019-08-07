@@ -1,15 +1,19 @@
-#multiplication table for any user input interger
+#multiplication table for 17
 
-
-def multi_table():
-    num = int(input("enter the number : "))
+def get_digit():
+    num = 17
+    return num
+   
+def multi_table(number):
     
     for i in range(1,11):
-         number = num*i
-         print(num,'x',i,'=',number)
+         num = number*i
+         print(number,'x',i,'=',num)
    
-
+def main():
+    number = get_digit()
+    multi_table(number)
 
 
 #main starts here
-multi_table()
+main()
