@@ -5,12 +5,12 @@ def user_name():
 
 
 def say_hello(name):
-    greet = print("Hello")
-    return greet
+    print("Hello",name)
+  
 
 def main():
-    n1 = user_name()  
-    say_hello(n1)
+    name = user_name()  
+    say_hello(name)
 
 
 
