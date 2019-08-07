@@ -4,18 +4,16 @@ def get_digit():
     num = int(input("enter the number : "))
     return num
    
-
-
-
-def multi_table(num):
-    
+def multi_table(number):
     
     for i in range(1,11):
-         number = num*i
-         print(num,'x',i,'=',number)
+         num = number*i
+         print(number,'x',i,'=',num)
    
-
+def main():
+    number = get_digit()
+    multi_table(number)
 
 
 #main starts here
-multi_table()
+main()
