@@ -6,7 +6,7 @@ def user_input():
         if res == 0:
             break
         if 100 <= res < 1000:
-            print(math.sqrt(res))
+            print("The Square root is : ",math.sqrt(res))
         else:
             print("Invalid input!! Please enter a positive three digit number")
 user_input()
