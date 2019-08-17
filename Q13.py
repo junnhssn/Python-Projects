@@ -5,7 +5,7 @@ def user_input():
         res = int(input('Enter a Three digit number : '))
         if res == 0:
             break
-        if 100 <= res <= 1000:
+        if 100 <= res < 1000:
             print(math.sqrt(res))
         else:
             print("Invalid input!! Please enter a positive three digit number")
